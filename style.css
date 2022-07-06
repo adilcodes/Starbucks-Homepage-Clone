@@ -3,7 +3,7 @@
     font-family: 'Fira Sans', sans-serif;
 }
 
-/* Nav Bar Start */
+/* Navigation Menu Start */
 .navbar{
     box-shadow: 0px 1px 3px 0px #0000003d;
 }
@@ -16,4 +16,43 @@
 .nav-link:hover{
     color: #00754a !important;
 }
-/* Nav Bar End */
+/* Navigation Menu End */
+
+/* For All Sections CSS start */
+.secRow{
+    margin: 2rem 0 !important;
+}
+
+/* For All Sections CSS end */
+
+/* 1st Section Start */
+.section-one-left{
+    background-color: #d4e9e2;
+    height: 326px;
+}
+.section-one-right{
+    background-color: #1e3932;
+    height: 326px;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+/* 1st Section End */
+
+/* 2nd Section Start */
+.section-two{
+    background-color: #d4e9e2;
+}
+.section-two-left{
+    height: 548px;
+    color: #1e3932;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+.section-two-left h1{
+    font-size: 50px;
+}
+.section-two-left button{
+    color: #1e3932;
+    border: 1px solid #1e3932;
+}
+/* 2nd Section End */
