@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+*{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* Nav Bar Start */
+.navbar{
+    box-shadow: 0px 1px 3px 0px #0000003d;
+}
+.nav-link{
+    letter-spacing: 1px;
+}
+.findStore{
+    font-size: 14px;
+}
+.nav-link:hover{
+    color: #00754a !important;
+}
+/* Nav Bar End */

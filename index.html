@@ -5,9 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Starbucks Coffee Company</title>
-    <link rel="icon" href="images/starbucksLogo.webp">
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="icon" href="images/starbucksLogo.svg">
+    
     <!-- Bootstrap CDN Start -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <!-- Bootstrap CDN End -->
@@ -16,8 +15,52 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <!-- Font Awesome CDN End -->
 
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    
+    <!-- Navigation Menu Start -->
+    <nav class="navbar navbar-expand-lg bg-white py-4 px-4">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="images/starbucksLogo.svg" alt="Logo" width="51" class="me-3">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Left Items -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-2">
+              <li class="nav-item">
+                <a class="nav-link text-dark fw-bold" aria-current="page" href="#">MENU</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark fw-bold" aria-current="page" href="#">REWARDS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark fw-bold" aria-current="page" href="#">GIFT CARDS</a>
+              </li>      
+            </ul>
+
+            <!-- Right Items -->
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3 d-flex align-items-center justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link text-dark d-flex align-items-center gap-2 me-3" aria-current="page" href="#">
+                    <i class="fa-solid fa-location-dot fs-5"></i>
+                    <span class="fw-semibold findStore">Find a store</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <button class="btn border-dark rounded-5 py-1 px-3 fw-semibold">Sign in</button>
+                </li>
+                <li class="nav-item">
+                    <button class="btn btn-dark border-dark rounded-5 py-1 px-3 fw-semibold text-white">Join now</button>
+                </li>      
+            </ul>
+
+          </div>
+        </div>
+    </nav>
+    <!-- Navigation Menu End -->
 </body>
 </html>
