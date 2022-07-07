@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
 *{
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 /* Navigation Menu Start */
@@ -10,7 +10,7 @@
 .nav-link{
     letter-spacing: 1px;
 }
-.findStore{
+.font-14{
     font-size: 14px;
 }
 .nav-link:hover{
@@ -50,9 +50,36 @@
 }
 .section-two-left h1{
     font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+.section-two-left p{
+    font-size: 24px !important;
 }
 .section-two-left button{
     color: #1e3932;
     border: 1px solid #1e3932;
 }
 /* 2nd Section End */
+
+/* 3rd Section Start */
+.section-three{
+    background-color: #007042;
+}
+/* 3rd Section End */
+
+/* 4th Section Start */
+.section-four{
+    background-color: #d4e9e2;
+}
+.section-four-left{
+    height: 368px;
+    color: #1e3932;
+}
+.section-four-left button{
+    border: 1px solid #1e3932;
+}
+.section-four-right{
+    height: 368px;
+}
+/* 4th Section End */
