@@ -28,13 +28,11 @@
 /* 1st Section Start */
 .section-one-left{
     background-color: #d4e9e2;
-    height: 326px;
 }
 .section-one-right{
     background-color: #1e3932;
-    height: 326px;
-    padding-left: 6rem;
-    padding-right: 6rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 /* 1st Section End */
 
@@ -43,7 +41,6 @@
     background-color: #d4e9e2;
 }
 .section-two-left{
-    height: 548px;
     color: #1e3932;
     padding-left: 6rem;
     padding-right: 6rem;
@@ -73,13 +70,59 @@
     background-color: #d4e9e2;
 }
 .section-four-left{
-    height: 368px;
     color: #1e3932;
 }
 .section-four-left button{
     border: 1px solid #1e3932;
 }
-.section-four-right{
-    height: 368px;
-}
 /* 4th Section End */
+
+/* Footer Start */
+
+/* Footer End */
+
+/* Responsiveness */
+
+@media only screen and (max-width: 1023px) {
+     .section-one-right {
+        padding-left: 3.3rem;
+        padding-right: 3.3rem;
+    }
+    .section-one-right p{
+        font-size: 19px !important;
+        line-height: 33px;
+    }
+    .section-two-left{
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .section-two-left h1{
+        font-size: 28px;
+    }
+
+}
+ @media only screen and (max-width: 767px){
+    .section-one-left{
+        padding: 0 !important;
+    }
+    .section-one-right{
+        padding: 1.95rem 0.5rem !important;
+    }
+    .section-one-right p{
+        font-size: 16px !important;
+    }
+    .section-two-left{
+        padding: 1.75rem 3rem !important;
+        order: 2;
+    }
+    .section-two-left p{
+        font-size: 22px !important;
+    }
+    .section-four-left{
+        order: 2;
+        padding: 1.95rem 0 !important;
+    }
+    .section-four-left p{
+        font-size: 16px !important;
+    }
+} 
