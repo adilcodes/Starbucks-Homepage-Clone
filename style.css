@@ -78,7 +78,18 @@
 /* 4th Section End */
 
 /* Footer Start */
-
+.footer{
+    box-shadow: 0px -1px 3px 0px #0000003d;
+}
+.footer ul li a{
+    color: rgba(0,0,0,.58);
+}
+.footer ul li a:hover{
+    color: #000 !important;
+}
+.footer-col h5{
+    font-size: 1.05rem !important;
+}
 /* Footer End */
 
 /* Responsiveness */
