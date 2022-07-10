@@ -1,7 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
 *:focus{
     box-shadow: none !important; 
 }
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
 *{
     font-family: 'Merriweather Sans', sans-serif;
 }
@@ -155,7 +155,7 @@
     
 
 }
- @media only screen and (max-width: 767px){
+@media only screen and (max-width: 767px){
     .section-one-left{
         padding: 0 !important;
     }
@@ -180,7 +180,26 @@
         font-size: 16px !important;
     }
     .accordion button{
-        font-size: 1.1rem !important;
+        font-size: 1rem !important;
+    }
+    .policy-pages-nav ul{
+        font-size: 14px !important;
+    }
+    .copyright-txt {
+        font-size: 13px !important;
     }
     
 } 
+@media only screen and (max-width: 450px){
+    .section-two-left{
+        padding: 1.75rem 1rem !important;
+    }
+}
+@media only screen and (max-width: 374px){
+    .section-two-left h1{
+        font-size: 24px !important;
+    }
+    .section-two-left p{
+        font-size: 19px !important;
+    }
+}
