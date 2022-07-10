@@ -152,8 +152,10 @@
     .policy-pages-nav ul li:nth-child(even){
         display: none !important;
     }
-    
 
+}
+@media only screen and (max-width: 991px) {
+    
 }
 @media only screen and (max-width: 767px){
     .section-one-left{
